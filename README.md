@@ -1,4 +1,3 @@
-# Hosting-Web
 <div align="center">
 
 # 🌐 Panduan Pendaftaran Akun & Klaim Domain
