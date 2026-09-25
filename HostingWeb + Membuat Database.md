@@ -173,43 +173,6 @@ Poin penting:
 
 ---
 
-## 🖼️ Cara Upload Foto ke README GitHub
-
-Agar gambar-gambar tutorial ini ikut tampil saat README dibuka di GitHub, ikuti langkah berikut:
-
-1. **Buat folder khusus gambar** di dalam repository, misalnya `screenshots/`, lalu simpan semua file gambar di sana (`1.png`, `2.png`, dst). Struktur repo jadi seperti ini:
-
-   ```
-   nama-repo/
-   ├── README.md
-   └── screenshots/
-       ├── 1.png
-       ├── 2.png
-       ├── ...
-       └── 15.png
-   ```
-
-2. **Panggil gambar di README** memakai sintaks Markdown berikut (path relatif terhadap README.md):
-
-   ```markdown
-   ![Deskripsi gambar](screenshots/1.png)
-   ```
-
-3. **Upload lewat GitHub Desktop / Git CLI** (disarankan untuk banyak file sekaligus):
-
-   ```bash
-   git add screenshots/ README.md
-   git commit -m "Tambah tutorial hosting dan database beserta screenshot"
-   git push origin main
-   ```
-
-   Atau lewat **web GitHub**: buka repo → klik **Add file → Upload files** → drag semua gambar ke folder `screenshots` → klik **Commit changes**.
-
-4. **Cek hasilnya** dengan membuka file README.md di halaman repo GitHub — semua gambar seharusnya tampil otomatis sesuai urutan yang ditulis di Markdown.
-
-> Tips: gunakan nama file yang deskriptif (misalnya `01-login-clientarea.png`) supaya lebih mudah dikelola saat foto makin banyak.
-
----
 
 ## 🔒 Catatan Keamanan
 
