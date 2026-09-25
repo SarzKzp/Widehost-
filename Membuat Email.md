@@ -18,22 +18,7 @@ Email merupakan salah satu layanan penting yang disediakan oleh hosting untuk me
 - Akses ke **cPanel** hosting
 - Domain yang sudah aktif
 - Browser (Chrome/Firefox/Edge, dll.)
-
-## 📁 Struktur Folder
-
-```
-.
-├── README.md
-└── email/          # berisi semua screenshot langkah (1.png - 7.png)
-    ├── 1.png
-    ├── 2.png
-    ├── 3.png
-    ├── 4.png
-    ├── 5.png
-    ├── 6.png
-    └── 7.png
-```
-
+  
 > ⚠️ Saat upload ke GitHub, pastikan folder gambar diberi nama **`email`** (bukan `images`) agar semua gambar di README ini tampil dengan benar, karena path yang digunakan adalah `email/nama-file.png`.
 
 ## 🚀 Langkah-Langkah
